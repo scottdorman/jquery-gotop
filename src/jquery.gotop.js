@@ -1,5 +1,5 @@
 /*!
- * jQuery goTop v1.0.0 (https://github.com/scottdorman/jquery-gotop)
+ * jQuery goTop v1.0.2 (https://github.com/scottdorman/jquery-gotop)
  * Copyright 2015 Scott Dorman (@sdorman)
  * Licensed under MIT (https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE)
  * Adapted from goUp originally developed by Roger Vila (@_rogervila)
@@ -24,7 +24,7 @@
         
         return this.each(function () {
             var g = $(this);
-            g.html("<a><span /></a>");
+            g.html("<a id='goTopAnchor'><span id='goTopSpan' /></a>");
 
             var ga = $('#goTop a');
             var gs = $('#goTop a span');
