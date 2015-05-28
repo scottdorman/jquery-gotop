@@ -1,10 +1,12 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Jquery-gotop by scottdorman</title>
 
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -31,18 +33,23 @@
         <h3>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
 
-<ol>
-<li>Download the minified version of the plugin and include it after jQuery. </li>
-<li>Add the following script code</li>
-</ol>
-
-<pre><code>&lt;script&gt;
+          <ol>
+              <li>Download the minified version of the plugin and include it after jQuery. </li>
+              <li>
+                  Add the following html code at the bottom of the <code>body</code>:
+                  <div id='goTop'></div>
+                  <pre><code>&lt;div id='goTop'&gt;&lt;/div&gt;</code></pre>
+              </li>
+              <li>
+                  Add the following script code
+                  <pre><code>&lt;script&gt;
    $(function () {
       $('#goTop').goTop();
    });
 &lt;/script&gt;
 </code></pre>
-
+              </li>
+          </ol>
 <h3>
 <a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h3>
 
@@ -58,25 +65,25 @@
 <tbody>
 <tr>
 <td>appear</td>
-<td></td>
+<td>The amount of pixels the page must be scrolled down before the arrow is displayed.</td>
 <td>Integer</td>
 <td>200</td>
 </tr>
 <tr>
 <td>scrolltime</td>
-<td></td>
+<td>A number determining how long the animation will run when scrolling to the top of the page.</td>
 <td>Integer</td>
 <td>800</td>
 </tr>
 <tr>
 <td>src</td>
-<td></td>
+<td>The CSS classes used to display the arrow.</td>
 <td>String</td>
 <td>glyphicon glyphicon-chevron-up</td>
 </tr>
 <tr>
 <td>width</td>
-<td></td>
+<td>The width of the arrow.</td>
 <td>Integer</td>
 <td>45</td>
 </tr>
@@ -88,31 +95,31 @@
 </tr>
 <tr>
 <td>fadein</td>
-<td></td>
+<td>A number determining how long the animation will run when fading in to opaque.</td>
 <td>Integer</td>
 <td>500</td>
 </tr>
 <tr>
 <td>fadeout</td>
-<td></td>
+<td>A number determining how long the animation will run when fading out to transparent.</td>
 <td>Integer</td>
 <td>500</td>
 </tr>
 <tr>
 <td>opacity</td>
-<td></td>
+<td>Sets the transparency level for the arrow, where 1 is not transparent at all, 0.5 is 50% see-through and 0 is completely transparent.</td>
 <td>Decimal</td>
 <td>0.5</td>
 </tr>
 <tr>
 <td>marginX</td>
-<td></td>
+<td>The percentage amount indicating how far away the arrow is from the bottom, left, or right, depending on the value of <code>place</code>.</td>
 <td>Integer</td>
 <td>2</td>
 </tr>
 <tr>
 <td>marginY</td>
-<td></td>
+<td>The percentage amount indicating how far away the arrow is from the top or bottom, depending on the value of <code>place</code>.</td>
 <td>Integer</td>
 <td>2</td>
 </tr>
@@ -123,8 +130,16 @@
         <p>This project is maintained by <a href="https://github.com/scottdorman">scottdorman</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
+      <div id='goTop'></div>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="javascripts/jquery-2.1.4.min.js"></script>    
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/jquery.gotop.min.js"></script>
+    <script>
+        $(function () {
+            $('#goTop').goTop();
+        });
+    </script>
   </body>
 </html>
