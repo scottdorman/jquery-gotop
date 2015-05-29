@@ -1,5 +1,5 @@
 /*!
- * jQuery goTop v1.0.2 (https://github.com/scottdorman/jquery-gotop)
+ * jQuery goTop v1.0.4 (https://github.com/scottdorman/jquery-gotop)
  * Copyright 2015 Scott Dorman (@sdorman)
  * Licensed under MIT (https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE)
  * Adapted from goUp originally developed by Roger Vila (@_rogervila)
@@ -12,7 +12,7 @@
             scrolltime: 800,
             src: "glyphicon glyphicon-chevron-up",
             width: 45,
-            place: "bottom-right",
+            place: "right",
             fadein: 500,
             fadeout: 500,
             opacity: 0.5,
@@ -21,21 +21,25 @@
         };
 
         var opts = $.extend({}, $.fn.goTop.defaults, options);
-        
+
         return this.each(function () {
             var g = $(this);
             g.html("<a id='goTopAnchor'><span id='goTopSpan' /></a>");
 
-            var ga = $('#goTop a');
-            var gs = $('#goTop a span');
+            var ga = g.children('a');
+            var gs = ga.children('span');
 
-            //width
-            g.css({
+            var css = {
                 "position": "fixed",
                 "display": "block",
                 "width": "'" + opts.width + "px'",
-                "z-index": "9"
-            });
+                "z-index": "9",
+                "bottom": opts.marginY + "%"
+            };
+
+            css[opts.place === "left" ? "left" : "right"] = opts.marginX + "%";
+
+            g.css(css);
 
             //opacity
             ga.css("opacity", opts.opacity);
@@ -58,7 +62,7 @@
                 $(ga).hover(function () {
                     $(this).css("opacity", "1.0");
                     $(this).css("cursor", "pointer");
-                    }, function () {
+                }, function () {
                     $(this).css("opacity", opts.opacity);
                 });
 
@@ -70,38 +74,6 @@
                     return false;
                 });
             });
-            
-            //place, marginX, marginY: 
-            if (opts.place === "top-right") {
-                g.css({
-                    "top": opts.marginY + "%",
-                    "right": opts.marginX + "%"
-                });
-            }
-            else if (opts.place === "top-left") {
-                g.css({
-                    "top": opts.marginY + "%",
-                    "left": opts.marginX + "%"
-                });
-            }
-            else if (opts.place === "bottom-right") {
-                g.css({
-                    "bottom": opts.marginY + "%",
-                    "right": opts.marginX + "%"
-                });
-            }
-            else if (opts.place === "bottom-left") {
-                g.css({
-                    "bottom": opts.marginY + "%",
-                    "left": opts.marginX + "%"
-                });
-            }
-            else {
-                g.css({
-                    "bottom": opts.marginY + "%",
-                    "right": opts.marginX + "%"
-                });
-            }
         });
     };
 })(jQuery);
