@@ -55,7 +55,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 #### v1.0.1 (2014-05-28)
 * Added bower and npm packages
 
-#### v1.0.0 (2014-05-28)
+#### v1.0.0 (2014-05-27)
 * Initial commit
 
 ## Copyright and license
