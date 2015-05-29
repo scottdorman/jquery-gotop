@@ -4,7 +4,7 @@ jquery-gotop
 goTop is a &lt;2kb Scroll to Top jQuery plugin.
 
 # Demo
-A live demo is available with the documentation at http://scottdorman.github.io/jquery-gotop
+A live [demo](http://scottdorman.github.io/jquery-gotop) is available with documentation.
 
 ## Bugs and feature requests
 
