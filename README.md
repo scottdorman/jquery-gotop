@@ -37,7 +37,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 # Changes
 
-#### v1.0.4 (2014-05-28)
+#### v1.1.0 (2014-05-28)
 * Simplified placement options.
 * Minor code simplifications.
 
