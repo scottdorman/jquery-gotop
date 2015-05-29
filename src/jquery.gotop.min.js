@@ -1,5 +1,5 @@
 /*!
- * jQuery goTop v1.1.1 (https://github.com/scottdorman/jquery-gotop)
+ * jQuery goTop v1.1.2 (https://github.com/scottdorman/jquery-gotop)
  * Copyright 2015 Scott Dorman (@sdorman)
  * Licensed under MIT (https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE)
  * Adapted from goUp originally developed by Roger Vila (@_rogervila)

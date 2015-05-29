@@ -1,12 +1,12 @@
 {
   "author": "Scott Dorman (https://github.com/scottdorman)",
-  "browserDependencies": {
+  "dependencies": {
     "jquery": ">=1.6",
     "bootstrap": ">=3.0.0"
   },
   "bugs": "https://github.com/scottdorman/jquery-gotop/issues",
   "description": "goTop is a <2kb Scroll to Top jQuery plugin.",
-  "homepage": "https://github.com/scottdorman/jquery-gotop",
+  "homepage": "http://scottdorman.github.io/jquery-gotop",
   "keywords": [
     "jquery-plugin",
     "scroll",
