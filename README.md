@@ -37,6 +37,9 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 # Changes
 
+#### v1.1.1 (2014-05-28)
+* Fixed link to demo in the readme.
+
 #### v1.1.0 (2014-05-28)
 * Simplified placement options.
 * Minor code simplifications.
