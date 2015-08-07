@@ -1,5 +1,5 @@
-jquery-gotop
-=============
+# jquery-gotop 
+[![GitHub license](https://img.shields.io/github/license/scottdorman/jquery-gotop.svg)](https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE) [![NuGet downloads](https://img.shields.io/nuget/dt/jquery-gotop.svg)](http://www.nuget.org/packages/jquery-gotop) [![NuGet version](https://img.shields.io/nuget/v/jquery-gotop.svg)](http://www.nuget.org/packages/jquery-gotop) [![Npm downloads](https://img.shields.io/npm/dm/jquery-gotop.svg?label=npm)](http://www.nuget.org/packages/jquery-gotop) [![Npm version](https://img.shields.io/npm/v/jquery-gotop.svg)](http://www.nuget.org/packages/jquery-gotop)
 
 goTop is a &lt;2kb Scroll to Top jQuery plugin.
 
