@@ -1,5 +1,5 @@
 /*!
- * jQuery goTop v1.3.0 (https://github.com/scottdorman/jquery-gotop)
+ * jQuery goTop v1.3.1 (https://github.com/scottdorman/jquery-gotop)
  * Copyright 2015 Scott Dorman (@sdorman)
  * Licensed under MIT (https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE)
  * Adapted from goUp originally developed by Roger Vila (@_rogervila)
@@ -8,6 +8,7 @@
     $.fn.goTop = function (options) {
 
         $.fn.goTop.defaults = {
+            container: '',
             appear: 200,
             scrolltime: 800,
             src: "glyphicon glyphicon-chevron-up",
@@ -50,7 +51,7 @@
 
             //appear, fadein, fadeout
             $(function () {
-                $(window).scroll(function () {
+                $(opts.container || window).scroll(function () {
                     if ($(this).scrollTop() > opts.appear) {
                         gs.fadeIn(opts.fadein);
                     }
