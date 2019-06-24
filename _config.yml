@@ -4,5 +4,10 @@ google_analytics:
 show_downloads: true
 theme: jekyll-theme-minimal
 
+github:
+  zip_url: 'https://github.com/scottdorman/jquery-gotop/zipball/master'
+  tar_url: 'https://github.com/scottdorman/jquery-gotop/tarball/master'
+  repository_url: 'https://github.com/scottdorman/jquery-gotop'
+  
 gems:
   - jekyll-mentions
