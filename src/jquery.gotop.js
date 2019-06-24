@@ -1,5 +1,5 @@
 /*!
- * jQuery goTop v1.3.1 (https://github.com/scottdorman/jquery-gotop)
+ * jQuery goTop v2.0.0 (https://github.com/scottdorman/jquery-gotop)
  * Copyright 2015 Scott Dorman (@sdorman)
  * Licensed under MIT (https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE)
  * Adapted from goUp originally developed by Roger Vila (@_rogervila)
@@ -11,7 +11,7 @@
             container: '',
             appear: 200,
             scrolltime: 800,
-            src: "glyphicon glyphicon-chevron-up",
+            src: "fas fa-chevron-up",
             width: 45,
             place: "right",
             fadein: 500,
