@@ -1,0 +1,8 @@
+title: Jquery-gotop
+description: goTop is a <2kb Scroll to Top jQuery plugin.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
