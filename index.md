@@ -3,7 +3,8 @@
 goTop is a &lt;2kb Scroll to Top jQuery plugin.
 
 ## There are a few easy wasy to get jQuery-goTop.
-* Download the latest full source code (includes debug and minified versions). [zip](https://github.com/scottdorman/jquery-gotop/zipball/master) | [tarbar](https://github.com/scottdorman/jquery-gotop/tarball/master)
+
+* Download the latest full source code (includes debug and minified versions). 
 * Clone the entire project or fork your own version.
 * Install using NuGet
 ```
@@ -21,10 +22,13 @@ bower install jquery-gotop
 ## Getting Started
 1. Download the minified version of the plugin and include it after jQuery.
 2. Add the following HTML to the bottom of the `body` tag:
+
 ```html
 <div id='goTop'></div>
 ```
+
 3. Add the following JavaScript code:
+
 ```js
 <script>
    $(function () {
