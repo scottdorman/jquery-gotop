@@ -26,7 +26,6 @@ bower install jquery-gotop
 ```html
 <div id='goTop'></div>
 ```
-
 3. Add the following JavaScript code:
 
 ```js
