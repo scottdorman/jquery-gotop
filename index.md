@@ -34,6 +34,7 @@ bower install jquery-gotop
 ```
 
 ## Options
+
 | Name | Description | Type | Default |
 | ---- | ----------- | ---- | ------- |
 | container | The HTML element to which the scroll function will be attached. If no value is given, then the scroll function will be attched to the window. | String | "" |
