@@ -1,5 +1,5 @@
 /*!
- * jQuery goTop v1.1.2 (https://github.com/scottdorman/jquery-gotop)
+ * jQuery goTop v1.3.0 (https://github.com/scottdorman/jquery-gotop)
  * Copyright 2015 Scott Dorman (@sdorman)
  * Licensed under MIT (https://github.com/scottdorman/jquery-gotop/blob/master/LICENSE)
  * Adapted from goUp originally developed by Roger Vila (@_rogervila)
@@ -17,7 +17,8 @@
             fadeout: 500,
             opacity: 0.5,
             marginX: 2,
-            marginY: 2
+            marginY: 2,
+            zIndex: 9
         };
 
         var opts = $.extend({}, $.fn.goTop.defaults, options);
@@ -33,7 +34,7 @@
                 "position": "fixed",
                 "display": "block",
                 "width": "'" + opts.width + "px'",
-                "z-index": "9",
+                "z-index": opts.zIndex,
                 "bottom": opts.marginY + "%"
             };
 

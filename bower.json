@@ -1,6 +1,6 @@
 {
   "name": "jquery-gotop",
-  "version": "1.0.3",
+  "version": "1.3",
   "description": "goTop is a <2kb Scroll to Top jQuery plugin.",
   "homepage": "http://scottdorman.github.io/jquery-gotop",
   "main": "src/jquery.gotop.js",
