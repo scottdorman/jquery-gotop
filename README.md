@@ -40,11 +40,11 @@ bower install jquery-gotop
 ## Options
 | Name | Description | Type | Default |
 | ---- | ----------- | ---- | ------- |
-| container | The HTML element to which the scroll function will be attached. If no value is given, then the scroll function will be attched to the window. | String | "" |
+| container | The HTML element to which the scroll function will be attached. If no value is given, then the scroll function will be attached to the window. | String | "" |
 | appear | The amount of pixels the page must be scrolled down before the arrow is displayed. | Integer | 200 |
 | scrolltime | A number determining how long the animation will run when scrolling to the top of the page. | Integer | 800 |
 | src | The CSS classes used to display the arrow. | String | fas fa-chevron-up |
-| width | The width of the arrow. | Integer	45 |
+| width | The width of the arrow. | Integer | 45 |
 | place | The location where the arrow will be shown. Valid values are "right" or "left". | String | "right" |
 | fadein | A number determining how long the animation will run when fading in to opaque. | Integer | 500 |
 | fadeout | A number determining how long the animation will run when fading out to transparent. | Integer | 500 |
