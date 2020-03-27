@@ -46,6 +46,7 @@ bower install jquery-gotop
 | src | The CSS classes used to display the arrow. | String | fas fa-chevron-up |
 | width | The width of the arrow. | Integer	45 |
 | place | The location where the arrow will be shown. Valid values are "right" or "left". | String | "right" |
+| color | The color of the CSS classes icon. | String | "" |
 | fadein | A number determining how long the animation will run when fading in to opaque. | Integer | 500 |
 | fadeout | A number determining how long the animation will run when fading out to transparent. | Integer | 500 |
 | opacity | Sets the transparency level for the arrow, where 1 is not transparent at all, 0.5 is 50% see-through and 0 is completely transparent. | Decimal | 0.5 |
