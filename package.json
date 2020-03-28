@@ -1,5 +1,6 @@
 {
   "author": "Scott Dorman (https://github.com/scottdorman)",
+  "contributors": "Félix Luginbuhl (https://github.com/lgnbhl)",
   "dependencies": {
     "jquery": ">=1.6",
     "bootstrap": ">=3.0.0"

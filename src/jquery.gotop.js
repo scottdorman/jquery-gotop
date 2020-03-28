@@ -14,6 +14,7 @@
             src: "fas fa-chevron-up",
             width: 45,
             place: "right",
+            color: '',
             fadein: 500,
             fadeout: 500,
             opacity: 0.5,
@@ -47,6 +48,7 @@
             ga.css("opacity", opts.opacity);
             gs.addClass(opts.src);
             gs.css("font-size", opts.width);
+            ga.css("color", opts.color);
             gs.hide();
 
             //appear, fadein, fadeout
